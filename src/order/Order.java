@@ -214,7 +214,7 @@ public class Order {
 
     }
 
-    public static void printCount() {
+    public static void AllRestaurantsWhichHaveTotalAmountOfOrdersGreaterThanTheGivenNumber() {
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Enter the count(count>1)");
         int count1 = scanner1.nextInt();
